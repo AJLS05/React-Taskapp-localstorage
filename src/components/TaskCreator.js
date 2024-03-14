@@ -9,8 +9,8 @@ export const TaskCreator = ({ createNewTask }) => {
   }
 
   return (
-    <form onSubmit={handleSubmit} className='my-2 row'>
-      <div className='col-9'>
+    <form onSubmit={handleSubmit} className='my-2 row g-3 d-flex align-items-center'>
+      <div className='col-8 d-flex justify-content-end'>
         <input
           type='text'
           placeholder='Enter new task'
@@ -19,8 +19,8 @@ export const TaskCreator = ({ createNewTask }) => {
           className='form-control'
         />
       </div>
-      <div className='col-3'>
-        <button className='btn btn-primary btn-sm'>Save task</button>
+      <div className='col-4 d-flex d-flex justify-content-end'>
+        <button className='btn btn-secondary'>Save task</button>
       </div>
     </form>
   )
