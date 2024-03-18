@@ -15,9 +15,9 @@ export const TaskTable = ({ tasks, toggleTask, doneValue }) => {
   }
 
   return (
-    <table className='table table-dark table-stripped table-bordered bordered-secondary'>
+    <table className='table table-dark table-stripped table-bordered bordered-secondary '>
       <thead>
-        <tr className='table-primary '>
+        <tr className='table-primary text-center'>
           <th>
             Tasks
           </th>

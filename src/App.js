@@ -37,8 +37,9 @@ function App () {
   }
 
   return (
-    <main className='bg-dark vh-100 text-white'>
+    <main className='bg-dark autoheight text-white'>
       <Container>
+        <p className='fs-3 text-center border-bottom border-secondary'>Task to-do App</p>
         <TaskCreator createNewTask={createNewTask} />
         <TaskTable tasks={taskItems} toggleTask={toggleTask} doneValue={false} />
         <VisibilityControl
