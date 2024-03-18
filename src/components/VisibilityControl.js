@@ -7,9 +7,10 @@ export const VisibilityControl = ({ isChecked, setshowCompleted, cleanTask }) =>
   }
 
   return (
-    <div className='d-flex justify-content-between align-items-center bg-secondary text-white text-center p-2 border-secondary'>
-      <div className='form-check form-switch'>
+    <div className='d-flex justify-content-between align-items-center bg-secondary text-white text-center p-2 border-secondary rounded-top'>
+      <div className='form-check form-switch '>
         <input
+          name='showCompleted'
           className='form-check-input'
           type='checkbox'
           checked={isChecked}

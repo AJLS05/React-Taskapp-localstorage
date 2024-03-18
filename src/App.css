@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.autoheight {
+  min-height: 100vh !important;
+  max-height: fit-content;
+}

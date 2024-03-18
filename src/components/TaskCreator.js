@@ -9,7 +9,7 @@ export const TaskCreator = ({ createNewTask }) => {
   }
 
   return (
-    <form onSubmit={handleSubmit} className='my-2 row g-3 d-flex align-items-center'>
+    <form onSubmit={handleSubmit} className='my-3 row g-1 d-flex align-items-center'>
       <div className='col-8 d-flex justify-content-end'>
         <input
           type='text'
